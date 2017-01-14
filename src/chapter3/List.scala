@@ -111,8 +111,7 @@ object List {
     
     //Ex: 3.24
     def hasSubsequence[A](sup: List[A], sub: List[A]): Boolean =
-        _
-    
+        true
     
     def sum2(ns: List[Int]) =
         foldRight(ns, 0)((x, y) => x + y)
@@ -165,7 +164,7 @@ object List {
     }
 }
 
-object Test {
+object TestList {
     
     //Ex: 3.1
     val x =List(1,2,3,4,5) match {
