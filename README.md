@@ -5,5 +5,5 @@
 
 
 更多参考
-1. ![fpinscala](https://github.com/fpinscala/fpinscala)
-2. ![higher-order](http://blog.higher-order.com/)
+1. 作业官方source[fpinscala](https://github.com/fpinscala/fpinscala)
+2. 作者网站[higher-order](http://blog.higher-order.com/)
