@@ -67,7 +67,7 @@ object Simple {
         @annotation.tailrec
         def loop(n: Int): Boolean =
             if(n >= as.length-1) true
-            else if(!ordered(as(n - 1, n))) false
+            else if(!ordered(as(n - 1), as(n))) false
             else loop(n+1)
         if(as.length < 2)
             true
