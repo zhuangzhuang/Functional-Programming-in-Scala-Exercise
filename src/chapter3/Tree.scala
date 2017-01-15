@@ -34,7 +34,7 @@ object Tree {
     }
     
     //Ex: 3.29
-    def fold[A, B](tree: Tree[A])(f1: (A, B)=>B)(f2: (B, B)=>B): B = tree match {
+    def fold[A, B](tree: Tree[A])(f1: A=>B)(f2: (B, B)=>B): B = tree match {
         case Leaf(x) =>f1(x)
         case Branch(left, right) => f2(fold(left)(f1)(f2),
                                        fold(right)(f1)(f2))
