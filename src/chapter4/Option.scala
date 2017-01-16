@@ -51,11 +51,18 @@ object Option {
     
     //Ex: 4.4
     def sequence[A](a: List[Option[A]]): Option[List[A]] =
-        _
+        a.foldRight[Option[List[A]]](Some(Nil))((n, acc) => (n, acc) match {
+            case (None, _) => None
+            case (_, None) => None
+            case (Some(v), Some(lv)) => Some(v::lv)
+        })
     
     //Ex: 4.5
-    
-    
+    def traverse[A, B](a: List[A])(f: A => Option[B]): Option[List[B]] =
+        a.foldRight[Option[List[B]]](Some(Nil))((n, acc)=> {
+            for(v <- f(n);
+                lst <- acc) yield v::lst
+        })
 }
 
 

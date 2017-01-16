@@ -35,6 +35,33 @@ case class Right[+A](value: A) extends Either[Nothing, A]
 
 object Either {
     //Ex: 4.7
-    
+    def sequence[E, A](es: List[Either[E, A]]): Either[E, List[A]] =
+        es.foldRight[Either[E, List[A]]](Right(Nil))((e, acc)=>e.map2(acc)(_::_))
+
+    def traverse[E, A, B](as: List[A])(f: A => Either[E, B]): Either[E, List[B]] =
+        as.foldRight[Either[E, List[B]]](Right(Nil))((e, acc)=>f(e).map2(acc)(_::_))
+
+
+    sealed class Name(val value: String)
+    sealed class Age(val value: Int)
+    case class Person(name: Name, age: Age)
+
+    def mkName(name: String):Either[String, Name] =
+        if(name == "" || name == null)
+            Left("Name is empty")
+        else
+            Right(new Name(name))
+
+    def mkAge(age: Int): Either[String, Age] =
+        if(age < 0)
+            Left("Age is out of range.")
+        else Right(new Age(age))
+
+    def mkPerson(name: String, age: Int): Either[String, Person] =
+        mkName(name).map2(mkAge(age))(Person(_, _))
     //Ex: 4.8
+    // change map2
+    // 使用集合错误
+    // 参考: c#中的 AggregateException (https://msdn.microsoft.com/en-us/library/system.aggregateexception(v=vs.110).aspx)
+
 }
