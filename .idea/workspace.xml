@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aafa517c-3739-4f4a-84c4-f9294f5c21da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter6/RNG.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sw.sc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter6/RNG.scala" afterPath="$PROJECT_DIR$/src/chapter6/RNG.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,9 +36,13 @@
       <file leaf-file-name="RNG.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter6/RNG.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
-              <folding />
+            <state relative-caret-position="521">
+              <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+              <folding>
+                <element signature="e#987#1151#0" expanded="false" />
+                <element signature="e#1157#1308#0" expanded="false" />
+                <element signature="e#1314#1520#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -572,9 +575,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter6/RNG.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="521">
+          <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+          <folding>
+            <element signature="e#987#1151#0" expanded="false" />
+            <element signature="e#1157#1308#0" expanded="false" />
+            <element signature="e#1314#1520#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
