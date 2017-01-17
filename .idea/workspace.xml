@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aafa517c-3739-4f4a-84c4-f9294f5c21da" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter6/RNG.scala" afterPath="$PROJECT_DIR$/src/chapter6/RNG.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter5/Stream.scala" afterPath="$PROJECT_DIR$/src/chapter5/Stream.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,21 +23,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Stream.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Stream.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter5/Stream.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="403">
+              <caret line="162" column="0" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+              <folding>
+                <element signature="e#1282#1375#0" expanded="false" />
+                <element signature="e#1477#1704#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RNG.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RNG.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter6/RNG.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+            <state relative-caret-position="681">
+              <caret line="172" column="14" selection-start-line="172" selection-start-column="14" selection-end-line="172" selection-end-column="14" />
               <folding>
                 <element signature="e#987#1151#0" expanded="false" />
                 <element signature="e#1157#1308#0" expanded="false" />
@@ -105,17 +108,17 @@
         <option value="$PROJECT_DIR$/src/chapter3/Tree.scala" />
         <option value="$PROJECT_DIR$/src/chapter4/Option.scala" />
         <option value="$PROJECT_DIR$/src/chapter4/Either.scala" />
-        <option value="$PROJECT_DIR$/src/chapter5/Stream.scala" />
         <option value="$PROJECT_DIR$/src/sw.sc" />
         <option value="$PROJECT_DIR$/src/chapter6/RNG.scala" />
+        <option value="$PROJECT_DIR$/src/chapter5/Stream.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="759" />
+    <option name="y" value="18" />
+    <option name="width" value="1073" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -398,7 +401,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="759" y="18" width="1073" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -471,7 +474,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1166">
           <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#1282#1375#0" expanded="false" />
+            <element signature="e#1477#1704#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -541,14 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter5/Stream.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/src/scala-2.11.7/src/library/scala/util/Random.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-249">
@@ -575,12 +573,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter6/RNG.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+        <state relative-caret-position="681">
+          <caret line="172" column="14" selection-start-line="172" selection-start-column="14" selection-end-line="172" selection-end-column="14" />
           <folding>
             <element signature="e#987#1151#0" expanded="false" />
             <element signature="e#1157#1308#0" expanded="false" />
             <element signature="e#1314#1520#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter5/Stream.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="162" column="0" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+          <folding>
+            <element signature="e#1282#1375#0" expanded="false" />
+            <element signature="e#1477#1704#0" expanded="false" />
           </folding>
         </state>
       </provider>
